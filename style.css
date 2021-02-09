@@ -32,10 +32,15 @@ ul li a{
    
 
 }
+.head-wrap{
+    width:980px;
+    margin:0 auto;
+}
 .wrap{
      
     width:980px;
-    margin:0 auto;    
+    margin:0 auto;   
+    margin-top:80px; 
 }
 .head-bg{
     background:#292929;
