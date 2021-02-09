@@ -13,7 +13,42 @@ font-family: 'Roboto', sans-serif;
     box-sizing:border-box;
 
 }
+ul li{
+    list-style-type:none;
+}
 a{
     text-decoration:none;
+
 }
- 
+ul li a{
+    padding:10px;
+}
+.full{
+    width:100%;
+
+}
+.nav-bg{
+    background: red;
+   
+
+}
+.wrap{
+     
+    width:980px;
+    margin:0 auto;    
+}
+.head-bg{
+    background:#292929;
+    display:flex;
+    
+}
+nav{
+    width:80%;
+    display:flex;
+    justify-content:flex-end;
+}
+.main-menu{
+    display: flex;
+    align-items:center;
+    
+}
