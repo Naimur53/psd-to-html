@@ -57,3 +57,9 @@ nav{
     align-items:center;
     
 }
+header h1{
+    color:#fff;
+    font-weight:bold;
+    font-family:lato;
+    font-size:40px;
+}
