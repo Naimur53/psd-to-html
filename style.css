@@ -35,12 +35,14 @@ ul li a{
 .head-wrap{
     width:980px;
     margin:0 auto;
+    
 }
+ 
 .wrap{
      
     width:980px;
     margin:0 auto;   
-    margin-top:80px; 
+    
 }
 .head-bg{
     background:#292929;
@@ -57,9 +59,83 @@ nav{
     align-items:center;
     
 }
+header{
+    width:20%;
+    display: flex;
+    
+    align-items:center;
+}
 header h1{
     color:#fff;
     font-weight:bold;
     font-family:lato;
     font-size:40px;
+}
+.main-menu ul{
+
+}
+.main-menu ul li{
+    list-style-type:none;
+
+
+}
+.main-menu ul li a{
+    display:block;
+    padding:45px 30px;
+    color:#fff;
+    border-left:1px solid #272727;
+}
+.main-menu ul li:hover a{
+    color:#58C93A;
+    border-bottom:5px solid #58C93A;
+}
+.main-menu ul li .active {
+    color:#58C93A;
+    border-bottom:5px solid #58C93A;
+}
+ .img-section{
+     display: flex;
+     flex-direction:column;
+     width:65%;
+ }
+.left{
+     display:flex;
+
+ }
+aside{
+     display:flex;
+     flex-direction: column;
+     width:30%;
+}
+/*style------------------------------- aria*/
+section{
+     
+   min-height: 600px;
+}
+.img-section h1{
+    color:#606060;
+    font-weight: bold;
+    font-size:28px;
+    font-family:lota;
+    margin-bottom:30px;
+   padding:5px 10px;
+
+}
+.img-section p{
+    color:#606060;
+    font-size:16px;
+    padding:5px 10px;
+
+}
+.content{
+    height: 200px;
+}
+.botton{
+    color: black;
+    border-radius: 17px;
+    border: 2px solid red;
+    padding: 3px;
+     
+    
+
 }
