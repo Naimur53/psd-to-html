@@ -96,16 +96,21 @@ header h1{
  .img-section{
      display: flex;
      flex-direction:column;
-     width:65%;
+     width:64%;
  }
-.left{
+.container{
      display:flex;
+     border-left:1px solid #606060;
+     border-right:1px solid #606060;
+     border-bottom:1px solid #606060;
+
 
  }
 aside{
      display:flex;
      flex-direction: column;
-     width:30%;
+     width: 31%;
+     margin-left: 5%;
 }
 /*style------------------------------- aria*/
 section{
@@ -129,13 +134,40 @@ section{
 }
 .content{
     height: 200px;
+    margin-left: 10px;
 }
 .botton{
-    color: black;
+    color:#606060;
     border-radius: 17px;
-    border: 2px solid red;
-    padding: 3px;
-     
-    
+    border: 2px solid#606060;
+    padding:5px 20px;
+    margin-left:20px;
+}
+.next{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-left:1px solid #606060;
+    border-right:1px solid #606060;
+    border-bottom:1px solid #606060;
+    min-height: 80px;
 
+}
+.next h2{
+    text-transform:uppercase;
+    color:#606060;
+    
+}
+/*aside--------------------------*/
+.side1 h2{
+    width:100%;
+    background-color:#E5E7E9;
+    padding:8px 10px;
+    border-left:5px solid #58C93A;
+    margin-bottom:20px;
+
+}
+.side1 p{
+    margin-bottom:20px;
 }
