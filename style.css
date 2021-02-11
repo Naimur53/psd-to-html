@@ -5,7 +5,13 @@ font-family: 'Open Sans', sans-serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'Roboto', sans-serif;
 */
-
+@font-face{
+    font-family:"lato";
+    src: url("../font/Lato-Regular.eot") format("eot");
+    src: url("../font/Lato-Regular.woff") format("woff");
+    src: url("../font/Lato-Regular.ttf") format("truetype");
+    src: url("../font/Lato-Regular.svg#lato") format("SVG");
+}
 
 *{
     margin:0px;
@@ -75,7 +81,7 @@ header{
 header h1{
     color:#fff;
     font-weight:bold;
-    font-family:lato;
+    font-family:"lato";
     font-size:40px;
 }
  
