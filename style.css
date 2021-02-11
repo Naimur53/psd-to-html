@@ -7,10 +7,10 @@ font-family: 'Roboto', sans-serif;
 */
 @font-face{
     font-family:"lato";
-    src: url("../font/Lato-Regular.eot") format("eot");
-    src: url("../font/Lato-Regular.woff") format("woff");
-    src: url("../font/Lato-Regular.ttf") format("truetype");
-    src: url("../font/Lato-Regular.svg#lato") format("SVG");
+    src: url("font/Lato-Regular.eot") format("eot"),
+     url("font/Lato-Regular.woff") format("woff"),
+     url("font/Lato-Regular.ttf") format("truetype"),
+     url("font/Lato-Regular.svg#lato") format("SVG");
 }
 
 *{
@@ -190,7 +190,7 @@ section{
 .side1 h2{
     width:100%;
     background-color:#E5E7E9;
-    padding:10px 10px;
+    padding:13px 10px;
     color:#6c6969;
     border-left:5px solid #58C93A;
     margin-bottom:20px;
